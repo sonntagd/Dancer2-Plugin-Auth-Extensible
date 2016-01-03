@@ -1595,6 +1595,8 @@ Gabor Szabo (GH #11, #16, #18).
 
 Evan Brown (GH #20, #32).
 
+Yanick Champoux (GH #40).
+
 =head1 LICENSE AND COPYRIGHT
 
 
