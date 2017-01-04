@@ -1177,6 +1177,8 @@ sub _logout_route {
     my $req = $app->request;
     my $plugin = $app->with_plugin('Auth::Extensible');
 
+    $plugin->execute_plugin_hook( 'before_logout' );
+
     $app->destroy_session;
 
     if ( my $url = $req->parameters->get('return_url') ) {
